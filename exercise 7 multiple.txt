@@ -1,0 +1,17 @@
+ #include<stdio.h>
+int main()
+{ 
+int x,y;
+printf("Enter the two integers number");
+scanf("%d%d",&x,&y);
+if(x%y==0)
+
+{
+    printf("First number is Multiple of second number");
+}
+else 
+{
+        printf("First number is not Multiple of second number");
+}
+    return 0;
+}

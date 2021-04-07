@@ -1,0 +1,38 @@
+[7:20 PM, 3/26/2021] Vijay Sir: #include <stdio.h>
+
+// 1. switch
+
+int main()
+{
+    int x = 87;
+    char c = ' ';
+    
+    if( x > 85 && x <=100)
+    c = 'A';
+    else if( x > 59 && x <=85)
+    c = 'B';
+    else if( x > 34 && x <= 59)
+    c = 'C';
+    else
+    c = 'F';
+    
+    switch(c)
+    {
+        case 'A':
+        printf(" congrats you passed with Distinction\n");
+        break;
+        case 'B':
+         printf(" congrats you passed with first class\n");
+         break;
+          case 'C':
+         printf(" congrats you passed with Second class\n");
+         break;
+         case 'F':
+         printf(" Sorry! you failed try again\n");
+         break;
+         default:
+           printf(" Sorry! you failed try again\n");
+         
+    }
+    return 0;
+}

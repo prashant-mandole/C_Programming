@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+
+// Bitwise operators example
+int main()
+{
+   int x = 6, y = 5;
+   
+   printf("Bitwise AND (&) = %d\n", (x&y));
+   printf("Bitwise OR (|) = %d\n", (x|y));
+   printf("Bitwise Exclusive-OR (^) = %d\n", (x^y));
+   printf("Bitwise left shift (<< ) = %d\n", (x<<1));
+   printf("Bitwise Right shift (>> ) = %d\n", (x>>1));
+   printf("Bitwise tild symbol (~) = %d\n", ~x);
+    
+    return 0;
+}

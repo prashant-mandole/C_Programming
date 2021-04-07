@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{ 
+    int a,b,c,d,e;
+    printf("enter five numbers");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    printf("you enter number is \t%d\t%d\t%d\t%d\t%d",a,b,c,d,e);
+    
+    
+    return 0;
+}

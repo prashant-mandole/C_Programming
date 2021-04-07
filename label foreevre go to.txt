@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+// implementing loops using labels
+int main()
+{
+    int x;
+    
+    forever: // labels
+    printf("Enter a number: ");
+    scanf("%d",&x);
+   
+    if(x == 5)
+    goto forever; // goto the label forever
+   
+    printf("Exited\n");
+   
+   return 0;
+}

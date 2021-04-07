@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+// Number guess game
+
+int main()
+{
+    int x = 5, guessNum = 0;
+    
+    printf("Enter a number, to check you guessed correctly: ");
+    scanf("%d", &guessNum);
+    
+    if(guessNum == x)
+    printf("Congrats you guessed correctly, you won the game\n");
+    else
+    printf("Sorry! you guessed incorrectly, try again...\n");
+
+    return 0;
+}
